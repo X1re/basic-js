@@ -16,5 +16,18 @@ function encodeLine(/* str */) {
 }
 
 module.exports = {
-  encodeLine
+  encodeLine,
 };
+
+// remove line with error and write your code here
+// const arr = [...str];
+// const answ = '';
+// for (let i = 0; i < arr.length; i++) {
+//   let num = 0;
+//   const element = array[i];
+//   if (arr[i] !== arr[i + 1]) {
+//     answ += arr[i];
+//   } else {
+//   }
+// }
+// return answ;
