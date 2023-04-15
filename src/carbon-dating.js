@@ -20,7 +20,6 @@ const HALF_LIFE_PERIOD = 5730;
 function dateSample(sampleActivity) {
   if (typeof sampleActivity !== 'string') return false;
   const val = parseFloat(sampleActivity);
-  console.log(val);
   if (!isFinite(val) || val <= 0 || val >= 15) {
     return false;
   }
